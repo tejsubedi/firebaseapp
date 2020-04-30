@@ -10,10 +10,10 @@ const ProjectSummary = () => {
                     information. I am convenient because I require little markup to
                     use effectively.
                     </p>
-            </div>
-            <div className="card-action">
-                <p>posted by TP</p>
-                <p className="grey-text">29th April</p>
+                <div className="card-action grey darken-1">
+                    <p>posted by TP</p>
+                    <p>29th April</p>
+                </div>
             </div>
         </div>
     )
