@@ -9,10 +9,6 @@ const ProjectList = ({projects}) => {
                     <ProjectSummary project={project} key={project.id}/>
                 )
             })}
-
-            {/* <ProjectSummary/>
-            <ProjectSummary />
-            <ProjectSummary /> */}
         </div>
     );
 }
