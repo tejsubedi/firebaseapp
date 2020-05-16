@@ -4,10 +4,3 @@ export const createProject = (project) => {
         dispatch({type: 'CREATE_PROJECT', project})
     }
 }
-
-
-//In normal case we use rturn object
-// return {
-//     type: 'ADD_PROJECT',
-//     project: project
-// }
