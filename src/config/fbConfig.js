@@ -1,10 +1,12 @@
 import firebase from 'firebase'  
 import 'firebase/firestore'
 import 'firebase/auth'
+import dotenv from 'dotenv'
+dotenv.config()
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCpWF-hR8bnqWlP50Fyztrvr8S4dZ1nqZs",
+    apiKey: process.env.API_KEY,
     authDomain: "myproject-15c30.firebaseapp.com",
     databaseURL: "https://myproject-15c30.firebaseio.com",
     projectId: "myproject-15c30",
