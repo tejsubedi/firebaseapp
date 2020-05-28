@@ -7,8 +7,8 @@ const Notifications = () => {
                 <div className="card-content white-text">
                     <span className="card-title">Notifications</span>
                     <div className="card-action grey darken-1">
-                        <p>Notification by </p>
-                        <p>29th April</p>
+                        <p>Notification by TP </p>
+                        <p>29th May</p>
                     </div>
                 </div>
             </div>
